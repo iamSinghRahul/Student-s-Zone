@@ -1,6 +1,9 @@
 body {
     background: rgb(255, 188, 4);
     overflow-x: hidden;
+    left: 0;
+    margin: 0;
+    padding: 0;
 }
 #canvas{
     position: fixed;
@@ -11,23 +14,27 @@ body {
     padding: 0%;
 }
 header{
+    max-width: 100vw;
+    overflow: hidden;
     position: sticky;
     padding: 0px;
     background: black;
     margin: -10px;
     color: white;
+    height: fit-content;
     left: 0;
     right: 0;
     margin-bottom: 50px;
 }
 header img{
-    width: 100vw;
+    width: 99vw;
     max-width: 600px;
     margin: 0;
 }
 .Section1{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 .Card{
     color: rgb(255, 255, 255);
@@ -63,11 +70,18 @@ header img{
     color: black;
 }
 footer{
+    position: fixed;
+    margin: auto;
+    bottom: 0px;
     font-weight: bold;
     margin-top: 40px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    background: rgb(33, 33, 34);
+    width: 100vw;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 footer h6{
     font-family: 'Times New Roman', Times, serif;
@@ -76,9 +90,8 @@ footer h6{
     padding: 5px;
     text-shadow: 2px 2px 50px white;
     font-size: 12px;
-    border-radius: 20px;
 }
 footer a{
     text-decoration: underline;
-    color: black;
+    color: rgb(255, 255, 255);
 }
