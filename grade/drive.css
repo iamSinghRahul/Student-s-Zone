@@ -1,6 +1,8 @@
 body {
     background: rgb(255, 188, 4);
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 #canvas{
     position: fixed;
@@ -75,6 +77,8 @@ footer{
     position: fixed;
     margin: auto;
     bottom: 0px;
+    left: 0;
+    right: 0;
     font-weight: bold;
     margin-top: 40px;
     color: rgb(255, 255, 255);
